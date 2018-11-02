@@ -9,5 +9,5 @@ script:
   - conan install .. --build
   - cmake ..
   - cmake --build .
-  - ./test-ci
+  - ./hello-ci-run
   - ./test_hello-ci
