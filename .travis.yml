@@ -2,6 +2,8 @@ language: cpp
 
 script:
   - mkdir build && cd build
+  - conan install .. --build
   - cmake ..
   - cmake --build .
   - ./test-ci
+  - ./test_hello-ci
