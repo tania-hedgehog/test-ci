@@ -15,6 +15,7 @@ build_script:
 
 test_script:
   - cd bin && test_hello-ci.exe
+  - hello-ci-run
 
 environment:
   matrix:
